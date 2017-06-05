@@ -9,70 +9,113 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-   <nav>
-   	    <a href="#">Driver</a>
-   	    <a href="#">Explore</a>
-   	    <a href="#">Help</a>
-   	    <a href="#">Log in</a>
-   	    <div>
-   		    <img src="assets/img/logo-white.png" alt="logo-blanco">
+   <nav id="menu" class="menu flex-container">
+        <div class="link-container">
+   	         <a id="enla1" href="#">Driver</a>
+   	         <a id="enla2" href="#">Explore</a>
+   	         <a id="enla3" href="#">Help</a>
+   	         <a id="enla4" href="#">Log in</a>
    	    </div>
    </nav>
    <section>
-   	   <video  poster="https://cdn.lyft.com/brochure/homepage-hero-poster.8ec795d5.jpg">
-   		   <source src="https://cdn.lyft.com/brochure/videos/hero-video-opt.mp4" type="video/mp4">
-   	   </video>
-   	   <div>
-   		   <h1 id="into">TURN MILES INTO MONEY</h1>
-		   <h3>SING UP TO DRIVE LYFT</h3>
-	   </div>
-	   <form action="">
-		   <input  id= "numero" type="text" name="" value="" placeholder="Phone Number.">
-           <span id="validacion"></span>
-		   <button id="boton1" type="submit" >BECOME A DRIVER</button>
-		   <a href="#">Sign Up to Ride</a>
-	   </form>	
-	   <div>
-           <p>Already applied? <a href="#">Check the status of your application here.</a></p>
-		   <p>Earn money for inviting friends to drive. <a href="#">Learn more.</a></p>
+        <div class="videito">
+   	         <video  class="vdo" poster="https://cdn.lyft.com/brochure/homepage-hero-poster.8ec795d5.jpg" autoplay loop>
+   		         <source src="assets/img/hero-video.mp4" type="video/mp4">
+   	         </video>
+   	   </div><!--
+   	   <div class="registro flex-container">
+   	        <div>
+   		        <h1 id="into">TURN MILES INTO MONEY</h1>
+		        <h3>SING UP TO DRIVE LYFT</h3>
+	        </div>
+	        <form class="formulario" >
+		        <input  id= "numero" type="text" name="" value="" placeholder="Phone Number.">
+                <span id="validacion"></span>
+		        <button id="boton1" type="submit" >BECOME A DRIVER</button>
+		        <a href="#">Sign Up to Ride</a>
+	        </form>	
+	        <div>
+                <p>Already applied? <a href="#">Check the status of your application here.</a></p>
+		        <p>Earn money for inviting friends to drive. <a href="#">Learn more.</a></p>
+   	        </div>
    	   </div>
    </section>
-   <section>
-       <div>
-       	   <div>
-       	   	   <h3>A RIDE IN MINUTES</h3>
-       	   	   <p>Request a ride and you'll be on your way in minutes. Request. Ride. Repeat</p>
-       	   	   <h3>SERIOUS ABOUT SAFETY</h3>
-       	   	   <p>From knowing the color of your diver's car to our 24/7 Trust & Safety Team, we got you.</p>
-       	   	   <h3>HAPPY DRIVERS.</h3>
-       	   	   <h3>HAPPY RIDERS.</h3>
-       	   	   <p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
-       	   </div>
-       	   <div>
-       	   	   <img src="assets/img/phone.png" alt="phone">
-       	   </div>
+   <section> -->
+       <div class="info flex-container">
+         <div class="lista flex-container">
+       	    <div class="infoLista">
+       	   	    <h3>A RIDE IN MINUTES</h3>
+       	   	    <p>Request a ride and you'll be on your way in minutes. Request. Ride. Repeat</p>
+       	    </div>
+       	    <div class="infoLista">	   
+       	   	    <h3>SERIOUS ABOUT SAFETY</h3>
+       	   	    <p>From knowing the color your diver's car to our 24/7 Trust & Safety Team, we got you.</p>
+       	    </div>
+       	    <div class="infoLista">	   
+       	   	    <h3>HAPPY DRIVERS.</h3>
+       	   	    <h3>HAPPY RIDERS.</h3>
+       	   	    <p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
+       	    </div>
+       	  </div>  
+       	    <div class="infoImagen">
+       	   	    <img src="assets/img/phone.png" alt="phone">
+       	    </div>
        </div> 
    </section>
+   <section>
+        <div class="seccionVideos">
+            <div class="infoVideo">
+                <p>WATCH</p>
+                <h3>AMPLIFY YOUR RIDE</h3>
+                <p>Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+            </div>
+            <div class="enlaceVideo">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="seccionVideos">
+            <div class="enlaceVideo">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/v8nyGzOLsdw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="infoVideo">
+                <p>WATCH</p>
+                <h3>JUNE</h3>
+                <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too.</p>
+            </div>
+        </div>
+        <div class="seccionVideos">
+            <div class="infoVideo">
+                <p>WATCH</p>
+                <h3>A GOOD THING GOING</h3>
+                <p>Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+            </div>
+            <div class="enlaceVideo">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>>
+            </div>
+        </div>
+    </section>
    <footer>
-   	   <div>
-   	   	   <div>
-   	   	   	   <a href="#">DRIVE</a>
-   	   	   	   <a href="#">RIDE</a>
-   	   	   	   <a href="#">LOG IN</a>
+   	   <div class="footerEnlaces flex-container">
+   	   	   <div class="footerLista">
+   	   	       <ul>
+   	   	   	       <li><a href="#">DRIVE</a></li>
+   	   	   	       <li><a href="#">RIDE</a></li>
+   	   	   	       <li><a href="#">LOG IN</a></li>
+   	   	   	   </ul>  
    	   	   	   <div>
    	   	   	   	   <ul>
    	   	   	   	   	   <li><a href="#">Help</a></li>
    	   	   	   	   	   <li><a href="#">Cities</a></li>
    	   	   	   	   	   <li><a href="#">Airports</a></li>
    	   	   	   	   	   <li><a href="#">Fare Estimate</a></li>
-   	   	   	   	   	   <li><a href="#">Free Ride Credits</a>   </li>
+   	   	   	   	   	   <li><a href="#">Free Ride Credits</a></li>
    	   	   	   	   	   <li><a href="#">Driver Bonus</a></li>
-   	   	   	   	   	   <li><a href="#"></a>Gift Cards</li>
+   	   	   	   	   	   <li><a href="#">Gift Cards</a></li>
    	   	   	   	   </ul>
    	   	   	   </div>
    	   	   </div>
-   	   	   <div>
-   	   	   	   <a href="#">PARTNER</a>
+   	   	   <div class="footerLista">
+   	   	   	   <h4>PARTNER</h4>
    	   	   	   <div>
    	   	   	   	   <ul>
    	   	   	   	   	   <li><a href="#">Partnerships</a></li>
@@ -83,8 +126,8 @@
    	   	   	   	   </ul>
    	   	   	   </div>
    	   	   </div>
-   	   	   <div>
-   	   	   	   <a href="#">LEARN</a>
+   	   	   <div class="footerLista">
+   	   	   	   <h4>LEARN</h4>
    	   	   	   <div>
    	   	   	   	   <ul>
    	   	   	   	   	   <li><a href="#">Safety</a></li>
@@ -98,21 +141,19 @@
    	   	   	   	   </ul>
    	   	   	   </div>
    	   	   </div>
-   	   	   <div>
+   	   	   <div class="listaLogos">
    	   	   	    <ul>
    	   	   	    	<li><a href="#"><img src="assets/img/apple-store.svg" alt="appStore"></a></li>
-   	   	   	    	<li><a href="#"><img src="assets/img/google-play.png" alt="googlePlay"></a></li>
-   	   	   	    	<li><a href="#"><img src="https://cdn.lyft.com/brochure/amazon-badge.a9f6f70e.png" alt="amazon"></a></li>
-   	   	   	    	<li><a href="#"><img src="assets/img/microsoft.png" alt="microsoft"></a></li>
+   	   	   	    	<li><a href="#"><img src="assets/img/google-play.png" width="135" height="40" alt="googlePlay"></a></li>
+   	   	   	    	<li><a href="#"><img src="https://cdn.lyft.com/brochure/amazon-badge.a9f6f70e.png" width="135" height="40" alt="amazon"></a></li>
+   	   	   	    	<li><a href="#"><img src="assets/img/microsoft.png" width="135" height="40" alt="microsoft"></a></li>
    	   	   	    </ul>
    	   	   </div>
    	   </div>
-   	   <div>
-   	        <ul>
-   	            <li><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-   	   	        <li><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></i></a></li>
-			    <li><a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-			</ul>
+   	   <div class="redes">
+   	           <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+   	   	       <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			   <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 			<hr>
             <p>© 2017 Lyft, Inc. Terms Privacy</p>
    	   </div>

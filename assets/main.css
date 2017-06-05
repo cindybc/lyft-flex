@@ -1,0 +1,18 @@
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: blue;
+  font-family: 'Montserrat', sans-serif
+}
+
+.menu .flex-container a{
+	color: #333447;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.menu .flex-container a:hover{
+	color: #FF00BF;
+}

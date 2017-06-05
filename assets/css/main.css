@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+footer{
+	background-color: #333447;
+	width: 100%;
+}
